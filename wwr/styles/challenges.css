@@ -1,0 +1,13 @@
+body {
+    background-color: pink;
+  }
+
+  h1, p, ol, li{
+    text-align: center;
+  }
+
+  img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+  }
