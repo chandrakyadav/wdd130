@@ -7,10 +7,15 @@ nav {
   padding: 10px;
 }
 
+a {
+  font-size: 1.5em;
+}
+
 /*a {
     color: white;
     margin: 30px;
   }*/ 
+
   
   #active {
     background-color: white;
@@ -21,9 +26,13 @@ nav {
     color: steelblue;
   }
   img {
-    width: 800px;
+    width: 80%;
     border: 4px solid steelblue;
   }
+
+  p {
+    width: 80%;
+}
   .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
