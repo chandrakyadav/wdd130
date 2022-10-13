@@ -1,6 +1,15 @@
 body {
+  text-align: center;
     background-color: pink;
   }
+  h1, p{
+    color: white;
+  }
+
+  ol.myul {
+    display: block;
+    text-align: center;
+}
 
   h1, p, ol, li{
     text-align: center;
@@ -10,4 +19,12 @@ body {
     width: 30%;
     display: block;
     margin: 0 auto;
+  }
+  * {
+    border: 2px solid blue;
+}
+
+  h2 p{
+    text-align: center;
+    font-size: 50px;
   }
