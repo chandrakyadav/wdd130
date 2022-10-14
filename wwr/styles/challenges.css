@@ -2,29 +2,48 @@ body {
   text-align: center;
     background-color: pink;
   }
+  main{
+    width: 30%;
+    margin: auto;
+  }
   h1, p{
     color: white;
   }
-
+h1:hover{
+  color: black;
+}
   ol.myul {
+    /* margin: auto; */
     display: block;
-    text-align: center;
+    /* text-align: center; */
+}
+li{
+  font-weight: 800;
+  text-align: left;
+  font-size: 0.9em;
+  margin-top: 0.7em;
 }
 
-  h1, p, ol, li{
+  h1, p{
     text-align: center;
   }
 
   img {
-    width: 30%;
+    width: 50%;
     display: block;
     margin: 0 auto;
   }
-  * {
+  /* * {
     border: 2px solid blue;
-}
+} */
 
-  h2 p{
-    text-align: center;
-    font-size: 50px;
+.lp p:nth-of-type(2),p:nth-of-type(3){
+  color: black;
+  margin: auto;
   }
+.lp p:nth-of-type(1){
+  width: 70%;
+  margin: auto;
+  font-size: 1.8em;
+  margin-bottom:0.9em ;
+}
